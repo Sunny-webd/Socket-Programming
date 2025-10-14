@@ -8,7 +8,7 @@ LOSS_PROBABILITY = 0.2  # Probability that a frame is lost
 
 def simulate_go_back_n(total_frames, window_size, loss_prob):
     base = 0
-    next_seq_num = 0
+   
 
     while base < total_frames:
         # Send frames in window
